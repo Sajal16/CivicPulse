@@ -28,3 +28,7 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/civicpulse'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
